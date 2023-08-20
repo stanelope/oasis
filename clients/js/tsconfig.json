@@ -6,15 +6,16 @@
     "declarationMap": true,
     "esModuleInterop": true,
     "lib": ["esnext", "dom"],
-    "module": "es2020",
-    "moduleResolution": "node",
-    "outDir": "lib/esm",
+    "module": "es2022",
+    "moduleResolution": "node16",
+    "outDir": "lib",
     "paths": {
       "@oasisprotocol/sapphire-paratime": ["src/index"],
       "@oasisprotocol/sapphire-paratime/*": ["src/*"]
     },
     "sourceMap": true,
+    "skipLibCheck": true,
     "strict": true,
-    "target": "es6"
+    "target": "es2022"
   }
 }
